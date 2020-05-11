@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4 !important;
+}
+
+
+
+.menuBtns{
+    display: flex;
+    background-color: #206464;
+    padding: 20px;
+    justify-content: left;
+   /*  justify-content: space-between; */
+    border-bottom: 3px solid red;
+}
+
+
+
+.menuBtns li{
+   list-style: none;
+   /* margin-right: 15px; */
+}
+
+/* .menuBtns a{
+    margin-right: 40px;
+    border-right: 1px solid black;
+} */
+
+.menuBtns a:hover{
+    background-color: seashell;
+}
+
+.titleCards{
+    background-color: #206464;
+    padding: 20px;
+    justify-content: left;
+    border-bottom: 3px solid red;
+}
+
+.bc{
+     background-color: white;
+}
+
+.contCards{
+    display: flex;
+}
+
+.bcc{
+    background-color: rgb(13, 30, 53);
+}
+
+.card{
+    margin: 10px;
+}
+
+.cl{
+    color: white;
+}
+
+
+.footer{
+    background-color: rgb(13, 30, 53);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.web,
+.info,
+.comunidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.qe a{
+    color: white;
+}
+
